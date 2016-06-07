@@ -8,3 +8,5 @@ fr folder - folder with files which were used on FormRapid project:
 Loader - Class which is used to load generated documents and preview. In case if searched document is not not generated yet the class calls resque worker - DocumentGenerator. DocumentGenerator firstly calls parser to put entered data to document template. Further, using pandoc it generates document of required format. Worker notifies about finishing generation via sockets.
 
 ChargifyEntity  - this is my personal example of concerns. On the project we used Chargify and some entities such as plans, transactions and subscriptions. They should be imported from chargify api. I used ChargifyEntity concern for flexible data update of these entities.
+
+clearbit_manager.rb - Module for better use API clearbit.com and gem 'clearbit'.
