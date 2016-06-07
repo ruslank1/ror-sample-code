@@ -10,3 +10,7 @@ Loader - Class which is used to load generated documents and preview. In case if
 ChargifyEntity  - this is my personal example of concerns. On the project we used Chargify and some entities such as plans, transactions and subscriptions. They should be imported from chargify api. I used ChargifyEntity concern for flexible data update of these entities.
 
 clearbit_manager.rb - Module for better use API clearbit.com and gem 'clearbit'.
+
+Class HTMLToPDFGenerator converts html template to pdf file. Also adds QR code to the generated file
+
+Class AnonymousSurvey adds questions for current account upon adding new events and also sorts and displays answers
